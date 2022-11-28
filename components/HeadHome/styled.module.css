@@ -1,0 +1,39 @@
+.headerContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  gap: 40px;
+}
+
+.textHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20%;
+}
+
+.titleHeader {
+  text-align: start;
+  margin: 0 auto 0 0;
+
+  font-size: 3.6rem;
+}
+
+.text {
+  color: black;
+  margin: 0;
+  font-size: 1.6rem;
+  padding: 10px 10% 0 0;
+}
+
+.imgHeader {
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}

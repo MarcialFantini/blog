@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  flex-direction: row;
+}
+.label {
+  cursor: pointer;
+}
+
+.input {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgb(204, 197, 197);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.inputText {
+  background: none;
+  color: black;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.inputText:focus {
+  outline: none;
+}
+
+.btnSubmit {
+  margin-left: 10px;
+
+  background: black;
+  color: white;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.category {
+  background: white;
+  border: none;
+  font-size: 1.6rem;
+  box-shadow: 0 0 15px -5px gray;
+  cursor: pointer;
+}

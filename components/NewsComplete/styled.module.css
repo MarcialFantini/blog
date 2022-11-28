@@ -1,0 +1,10 @@
+.containerAll {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.newsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  align-items: center;
+}
